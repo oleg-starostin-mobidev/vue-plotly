@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "private": false,
   "scripts": {
+    "prepare": "npm run build",
     "serve": "vue-cli-service serve ./example/main.js --open",
     "build": "vue-cli-service build --name vue-plotly --entry ./src/index.js --target lib",
     "test:unit": "vue-cli-service test:unit --coverage",
